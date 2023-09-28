@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Open+Sans&display=swap');
+
+.textBellas{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+}
+.containerLinks{
+    font-family: 'Alex Brush';
+    font-style: normal;
+    font-weight: 400;
+}
+.containerServices{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+.btn-Book{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+}
+.iconWhats{
+    width:"100px";
+    height:"100px";
+   
+}
+.iconWhats:hover{
+    cursor: "pointer";
+    box-shadow: "inset 400px 0 0 0 #7d661d";
+    border-radius: "20px";
+}
