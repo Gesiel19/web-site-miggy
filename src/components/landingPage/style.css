@@ -1,36 +1,75 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Open+Sans&display=swap');
 
-.textBellas{
+.textBellas {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
 }
-.containerLinks{
+
+.containerLinks {
     font-family: 'Alex Brush';
     font-style: normal;
     font-weight: 400;
 }
-.containerServices{
+
+.containerServices {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
 }
-.btn-Book{
+
+.btn-Book {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 1.2rem;
-    
+
 }
-.iconWhats{
-    width:"100px";
-    height:"100px";
-   
+
+.iconWhats {
+    width: "100px";
+    height: "100px";
+
 }
-.iconWhats:hover{
+
+.iconWhats:hover {
     cursor: "pointer";
     box-shadow: "inset 400px 0 0 0 #7d661d";
     border-radius: "20px";
+}
+
+.styleCalendar {
+    background-color: rgb(219, 15, 15);
+}
+
+.react-datepicker__day {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(243, 41, 176);
+}
+
+.react-datepicker__header {
+    background-color: black;
+    color: #fff;
+}
+
+.react-datepicker__current-month {
+    height: 50px;
+    color: white;
+    font-weight: 600;
+    font-size: 1.7rem;
+    
+}
+
+.react-datepicker__day-names {
+    background-color: rgb(75, 24, 24);
+    color: white; 
+}
+
+.react-datepicker__day-name {
+    font-weight: 600;
+    font-size: 1rem;
+     color: white;
 }

@@ -16,11 +16,15 @@ import eyes from '../../assets/eyes.png';
 import iconBook from '../../assets/iconBook.png';
 import NavBar from './NavBar'
 import './style.css'
+import { useNavigate } from 'react-router-dom';
 
 const LandingPage = () => {
   const icon = [iconInstg, iconUbic, iconWhats]
   const services = ["Eyebrows", "Facial", "Eyelash Extension", "Nails", "Make Up", "Massages", "Eyebrows Training", "Waxing"]
   const imgs = [eyes, mouth, nails]
+
+const navigate = useNavigate();
+
   return (
     <Box className='container-landing' justifyContent='center'
     w="100%"
@@ -116,7 +120,10 @@ const LandingPage = () => {
        boxShadow: "inset 400px 0 0 0  rgba(201,166,76)",
        color: "white"
       }}
-  ><img  src={iconBook} alt="" width="50px" />Book</Button>
+      onClick={() => {
+        navigate('/book');
+      }}
+ ><img  src={iconBook} alt="" width="50px" />Book</Button>
    {
     icon.map((item =>
       
